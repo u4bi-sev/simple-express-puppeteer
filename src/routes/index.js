@@ -27,6 +27,8 @@ router.get('/async', asyncHandler(async (req, res, next) => {
 
 }));
 
-router.get('/naver', asyncHandler(puppeteer));
+
+
+router.get('/naver', asyncHandler(puppeteer.naver_main));
 
 module.exports = router;
