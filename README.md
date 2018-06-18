@@ -72,3 +72,21 @@ $ docker-compose build && docker-compose up
     ]
 }
 ```
+
+**URL** : `http://localhost:3000/naver_login/?naver_id={ NAVER_ID }&naver_pass={ NAVER_PASSWORD }`
+
+```json
+{
+    "profile": {
+        "iframe_id": "MY영역",
+        "profile_name": "유명재",
+        "mail_count": "73",
+        "note_count": "21"
+    },
+    "contact": {
+        "기본 이메일": "an******@n*******.com",
+        "본인확인 이메일": "u4******@u*******.com",
+        "휴대전화": "+82 10-7***-1***"
+    }
+}
+```
